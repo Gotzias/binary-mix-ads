@@ -1,8 +1,5 @@
 # binary-mix-ads
-binary mixture adsorption densities at different temperatures 
-We have used the ideal adsorbed solution therory to predict mixture adsorption data.
-They result from the corresponding single component adsorption isotherms at the temperatures of interest.
-
+We use the ideal adsorbed solution theory (IAST) to calculate mixture adsorption selectivities of porous solids at a range of feed temperatures and mixture compositions. IAST calculations use a set of single component adsorption data resulted from either experimental measurments or grand canonical simulations at the conditions of interest. To express the effect of the temperature on the adsorption selectivity, we use the Clausius - Clapeyron equation to extrapolate the available isotherms at different temperatures. IAST is then employed on the extrapolated single component isotherms. Screening of the selectivity performance, helps to specify the optimum conditions for gaseous mixtures adsorption on porous solids. We show case the method considering the adsorption of $CO_2$-$CH_4$ mixtures at temperatures between 270 and 320 K. As representative adsorbents we consider two activated carbons and two crystal solids of metal organic framework type.
 
 ![acc](https://user-images.githubusercontent.com/34607285/35210313-67579496-ff5a-11e7-940e-807eb581d00f.png)
 
